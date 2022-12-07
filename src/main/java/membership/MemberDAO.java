@@ -3,6 +3,7 @@ package membership;
 import javax.servlet.ServletContext;
 
 import common.JDBConnect;
+import model1.board.BoardDTO;
 /*
 DAO(Data Access Object)
 : 실제 데이터베이스에 접근하여 여러가지 CRUD작업을 하기 위한 객체 
@@ -54,4 +55,13 @@ public class MemberDAO extends JDBConnect{
 		//호출한 지점으로 DTO객체를 반환한다.
 		return dto;
 	}
+	
+	
 }
+
+
+
+
+
+
+
