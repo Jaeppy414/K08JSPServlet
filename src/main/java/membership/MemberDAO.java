@@ -1,5 +1,9 @@
 package membership;
 
+import java.util.List;
+import java.util.Map;
+import java.util.Vector;
+
 import javax.servlet.ServletContext;
 
 import common.JDBConnect;
@@ -55,7 +59,6 @@ public class MemberDAO extends JDBConnect{
 		//호출한 지점으로 DTO객체를 반환한다.
 		return dto;
 	}
-	
 	
 }
 

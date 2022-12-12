@@ -105,6 +105,7 @@ function deletePost() {
 						<div class="col text-right mb-4">
 							<!-- 각종 버튼 부분 -->
 							
+							
 							<%
 							if(session.getAttribute("UserId") != null && dto.getId().equals(session.getAttribute("UserId").toString())){
 							%>							

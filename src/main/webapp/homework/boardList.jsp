@@ -94,18 +94,6 @@ dao.close();
                         </tr>
                     </thead>
                     <tbody>
-                    <%-- <%for(int i=1 ; i<=5 ; i++){ %>
-                        <!-- 리스트반복 -->
-                        <tr>
-                            <td class="text-center"><%= i %></td>
-                            <td class="text-left"><a href="boardView.jsp">제목</a></td>
-                            <td class="text-center">작성자</td>
-                            <td class="text-center">작성일</td>
-                            <td class="text-center">조회수</td>
-                            <td class="text-center"><i class="bi bi-pin-angle-fill" style="font-size:20px"></i></td>
-                        </tr>
-                        <!-- 리스트반복 -->
-                    <% } %> --%>
                     <%
 						//컬렉션에 입력된 데이터가 없는지 확인한다.
 						if (boardLists.isEmpty()) {
