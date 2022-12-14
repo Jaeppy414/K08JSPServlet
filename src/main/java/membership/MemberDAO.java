@@ -35,6 +35,7 @@ public class MemberDAO extends JDBConnect{
 		MemberDTO dto = new MemberDTO();
 		//로그인을 위해 인파라미터가 있는 동적 쿼리문 작성
 		String query = "SELECT * FROM member WHERE id=? AND pass=?";
+//		String query = "INSERT INTO member VALUES (?,?,?,?)";
 		
 		try {
 			//쿼리문 실행을 위한 prepared객체 생성 및 인파라미터 설정
