@@ -17,6 +17,7 @@ public class MVCBoardDTO {
 	//비회원제 게시판이므로 회원인증 대신 패스워드를 통한 인증을 진행한다.
 	private String pass;
 	private int visitcount;
+	
 	public String getIdx() {
 		return idx;
 	}

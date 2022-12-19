@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Vector;
 
 import common.DBConnPool;
+import model2.mvcboard.MVCBoardDTO;
 
 /*
 DBCP(DataBase Connection Pool)를 이용해서 오라클에 연결한다. 커넥션풀은
@@ -75,6 +76,8 @@ public class MyfileDAO extends DBConnPool{
 		}
 		return fileList;
 	}
+	
+	
 }
 
 
