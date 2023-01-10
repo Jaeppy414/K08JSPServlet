@@ -20,6 +20,7 @@
 	href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
 </head>
 <body>
+
 	<div class="container">
 		<div class="row">
 			<%@ include file="./inc/top.jsp"%>
